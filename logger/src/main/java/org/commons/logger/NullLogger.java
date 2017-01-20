@@ -1,6 +1,6 @@
 package org.commons.logger;
 
-final class NullLogger implements Logger {
+public final class NullLogger implements Logger {
 
     @Override
     public int v(Throwable t) {
